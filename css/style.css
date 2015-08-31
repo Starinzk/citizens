@@ -1,0 +1,399 @@
+
+body{
+	font-family: "Myriad Pro",serif;
+	background-color: #ddeaf0;
+}
+
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.inner{
+	background: white;
+	border-radius: 6px;
+	padding: 20px;
+}
+
+#topbar{
+	background-color: #dadada;
+	border-radius: 4px;
+}
+
+#topbar ul{ 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+
+#topbar li{
+	display: inline-block;
+}
+
+#topbar a{ 
+	text-decoration: none;
+	color: #276780;
+	display: block;
+	font-weight: 1em;
+	padding: 20px 25px;
+}
+
+#img{ 	
+	height:160px;
+	background-image:url(../img/homeimage.jpg); 
+	background-color:#669696;
+	background-repeat: no-repeat;
+	background-position: left;
+
+	position: relative;
+}
+
+#img p{ 
+	margin-left: 280px;
+	padding: 20px; 
+	font-family: "Myriad Pro", serif;
+	color: white;
+	font-weight: 1em;
+}
+
+.button {
+    display: block;
+    height: 35px;
+    width: 110px;
+    background: #3f6f6f;
+    padding: 10px 0px 0px 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#text{	
+	font-family: "Myriad Pro",serif;
+	margin: 0 auto;
+	border-radius: 4px;
+	display: inline-block;
+
+}
+
+#community{ 
+	font-family: "Myriad Pro", serif;
+	color: black;
+	font-weight: 1em;
+	margin: 0 auto;
+	padding: 10px;
+
+}
+
+#chermont{ 
+	font-family: "Myriad Pro", serif;
+	color: black;
+	font-weight: 100;
+	margin: 0 auto;
+	padding:10px;
+
+}
+
+
+
+#text_1{
+	display: inline-block;
+	width: 50%
+	color: black;
+	font-weight: 1em;
+
+
+}
+
+
+
+
+#news{ 
+	background-color: #f1f1f1;
+	width: 375px;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#news ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+#boardmeeting {
+	
+	padding: 20px;
+	margin: 0px;
+	width: 375px;
+	display: inline-block;
+	vertical-align: top;
+
+	
+	
+}
+#boardmeeting  tr{
+	background-color:#679797;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: white;
+	
+}
+#boardmeeting th {
+	background:#679797;
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #679797;
+}
+
+#boardmeeting td {
+	background:#ddeaf0;
+	border-width: 1px;
+	padding: 8px;
+	
+}
+
+
+
+
+
+
+#perks{ 
+
+	background-color: #e0efe7;
+	padding: 20px;
+    
+    width: 50%;
+    display: inline-block;
+   	vertical-align: top;
+}
+#perks ul{
+	
+	margin: 0px;
+}
+
+#perks h2{
+	display: inline-block;
+	padding: 0px;
+	
+}
+
+#perks li{
+	padding: 0;
+	margin: 0;
+
+}
+
+#perks p{
+	padding: 0;
+	margin: 0;
+}
+
+
+#youngsters{
+	width: 375px;
+	display: inline-block;
+	padding: 20px;
+	margin: 0;
+	vertical-align: top;
+
+
+}
+
+#youngsters h2{
+	padding-left: 20px;
+	margin-left: 0;
+}
+#youngsters p{
+	padding-left: 20px;
+	margin-left: 0;
+}
+
+
+#pagetitle {
+	height:160px;
+	background-color:#669696;
+
+	background-position: left;
+
+	position: relative;
+	margin-top: 20px;
+}
+#pagetitle h1{
+	padding-top: 45px;
+	margin: 0;
+	text-align: center;
+}
+#pagetitle p{
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	color: white
+}
+
+
+
+#climatetable {
+	
+	padding: 20px;
+	margin: 0px;
+	width: 375px;
+	display: inline-block;
+	vertical-align: top;
+
+	
+	
+}
+#climatetable  tr{
+	background-color:#679797;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: white;
+	
+}
+#climatetable th {
+	background:#679797;
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #679797;
+}
+
+#climatetable td {
+	background:#ddeaf0;
+	border-width: 1px;
+	padding: 8px;
+	
+}
+
+
+
+#newsroom{
+	height:160px;
+	background-image:url(../img/newsroom.jpg); 
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+
+}
+
+#mainbody{
+	display: inline-block;
+
+}
+#mainbody h2{
+	
+	display: block;
+	padding-top: 15px;
+	margin: 0;
+	text-align: left;
+}
+
+#mainbody p{
+	margin-top: 40px;
+	display: block;
+}
+
+#blueribbon {
+	height: 175px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 15px;
+
+	float: right;
+}
+
+#bluetext{
+	text-align: center;
+	color: #89a7b2;
+	padding: 20px;
+}
+
+#winnerlist h2{
+	padding: 0;
+	margin: 0;
+}
+#winnerlist p{
+	padding: 2px;
+	margin: 0;
+	color: #696863;
+}
+
+
+
+#contactimg {
+	height:160px;
+	background-image:url(../img/homeimage.jpg); 
+	background-color:#669696;
+	background-repeat: no-repeat;
+	background-position: right;
+
+	position: relative;
+
+
+}
+#contactimg p{
+	text-align: left;
+	color: white;
+	padding: 40px;
+}
+
+#bottombar{ 
+	font-family: "Myriad Pro",serif;
+	margin: 20px;
+
+}
+
+#bottombar ul{ 
+		list-style: none;
+		margin: 50px;
+		padding: 0;
+		display: block;
+		text-align: center;
+}
+
+
+#bottombar li{
+		display: inline-block;
+}
+#bottombar a{ 
+	text-decoration: none;
+	color: #276780;
+	display: block;
+	font-weight: 1em;
+	padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
